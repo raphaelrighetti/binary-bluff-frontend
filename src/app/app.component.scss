@@ -1,0 +1,17 @@
+@import "../styles.scss";
+
+header {
+  width: 100%;
+  height: fit-content;
+  padding-block: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $oxford-blue;
+  box-shadow: 0 0 2rem $oxford-blue;
+
+  h1 {
+    font-size: $title-font-size;
+  }
+}
